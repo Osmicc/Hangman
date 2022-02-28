@@ -17,5 +17,15 @@
         <jarDirectory url="file://$USER_HOME$/Desktop/acm" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Desktop/Dialog" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/Desktop/Dialog" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
