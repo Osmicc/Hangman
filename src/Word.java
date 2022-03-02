@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.nio.CharBuffer;
+import java.util.Locale;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -29,6 +30,7 @@ public class Word {
         while (sc.hasNextLine()) {
             for (int i = 0; i < ran.nextInt(1000); i++) {
                 word = sc.nextLine();
+                word = word.toLowerCase(Locale.ROOT);
             }
             break;
         }
